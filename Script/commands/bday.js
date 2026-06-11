@@ -43,24 +43,24 @@ module.exports.run = async ({ api, event }) => {
 
   if (diffDays === 0) {
     const happyBirthdayMessage = `╔═══ 🎉 HAPPY BIRTHDAY 🎉 ═══╗
-║ OUR BOSS - SHAHADAT SAHU 💖
+║ OUR BOSS - Monir 💖
 ╟──────────────────────
 ║ 🎂 আজ আমাদের Boss এর জন্মদিন!
 ║ 🥳 সবাই মন থেকে উইশ করো
 ║ ❤️ দোয়া ও ভালোবাসা জানাও
 ╟──────────────────────
 ║ 📘 Facebook :
-║ www.facebook.com/100044713412032
+║ www.facebook.com/61588094356504
 ║ 💬 Messenger :
-║ m.me/100044713412032
+║ m.me/61588094356504
 ║ 📱 WhatsApp :
-║ https://wa.me/+8801882333052
+║ https://wa.me/+8801618959120
 ╚══════════════════════╝`;
     return api.sendMessage(happyBirthdayMessage, event.threadID, event.messageID);
   }
 
   const countdownMessage = `╔═══════════════════╗
-║ 🎂 Admin SHAHADAT SAHU
+║ 🎂 Admin Monir
 ║ জন্মদিন কাউন্টডাউন ❤️‍🔥
 ║═══════════════════
 ║ 📅 Days : ${diffDays}
